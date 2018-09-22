@@ -1,0 +1,36 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Exploring R's tools Package"
+canonifyURLs = true
+enableEmoji = true
+googleAnalytics = "UA-XXXXXX-1"
+
+theme = "pristine"
+
+[params]
+    portrait = "img/portrait.jpg"
+
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "All Articles"
+  url = "/all/"
+  weight = 2
+
+
+[[menu.projects]]
+  name = "Exploring R's tools Package"
+  url = "https://github.com/MichaelChirico/tools_blog"
+  weight = 1
+
+
+[[params.social]]
+    title = "Twitter"
+    url = "https://twitter.com/michael_chirico"
+[[params.social]]
+    title = "Github"
+    url = "https://github.com/michaelchirico"
